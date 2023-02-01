@@ -1,0 +1,32 @@
+.navbar {
+  background-color: black !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+#logo {
+  color: white;
+  font-size: 1.7rem;
+}
+
+#home-container {
+  margin-top: 25px;
+}
+
+.jumbotron {
+  background-image: url("jumbo-copy.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+#page-content {
+  background-color: lightgray;
+}
