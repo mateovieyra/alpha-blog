@@ -6,7 +6,7 @@
       <div class="col-8 mt-4">
         <div class="card text-center shadow mb-5 bg-white rounded">
           <div class="card-header fst-italic">
-            by Mateo Vieyra
+            by <%= a.user.username %>
           </div>
           <div class="card-body">
             <h5 class="card-title"><%= link_to a.title, article_path(a), class: "text-success text-decoration-none" %></h5>
